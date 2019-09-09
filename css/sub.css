@@ -466,7 +466,7 @@ z
 .subCon3{
     width: 100%;
     height: 455px;
-    background: url(/images/artist_off4.png) no-repeat center center;
+    background: url(../images/artist_off4.png) no-repeat center center;
     text-indent: -9999px;
     background-size: cover;
     background-attachment: fixed;
