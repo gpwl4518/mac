@@ -1,0 +1,497 @@
+@charset "utf-8";
+
+/*sub 서브*/
+
+.subCon1{
+    
+    background:#EBEBEB;
+    width: 100%;
+    height: 1230px;
+}
+
+
+.subFront1{
+    position: relative;
+}
+.subFront1 h1{
+    float: left;
+}
+.subFront1 h1 a{}
+.subFront1 h1 a img{}
+
+
+.search2{
+    float: right;
+    width: 266px;
+    height: 66px;
+    line-height: 66px;
+    background: #ADA5A3;
+    text-align: center;
+    margin-top:59.5px;
+    
+}
+.search2 a img{
+   
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.search2 input{ /*화살표 자기가 들고있는 사진? 화살표로 지정해서 바꾸기~*/
+    -webkit-appearance:none;
+    height: 59px;
+    line-height: 59px;
+    border: 1px solid #ADA5A3;
+    font-size: 15px;
+    background: url(../) no-repeat 90% center;
+    padding: 0 6px;
+    margin-left: 10px;
+    color:#fff;
+    font-weight: 300;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+  font-weight:bold;
+}
+
+::-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+.logoSearch{
+    height:185px;
+    line-height: 185px;
+    margin-bottom: 30px;
+}
+
+.subMenu1{
+    float: left;
+    width: 160px;
+    height: 200px;
+}
+.subMenu1 li{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 35px;
+}
+.subMenu1 li a{}
+.subMenu1 .submenu1Bold{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.subTitle1{
+    
+}
+.lipBox{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.lipBox img{
+    vertical-align: middle;
+    
+}
+.light{
+    margin-left:30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.lipIco{
+    display: inline-block;
+    vertical-align: middle;
+}
+.lipIco img{
+    margin: 0 7px;
+    vertical-align: middle;
+    
+}
+.lipBold{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*서브중간박스*/
+
+.productBox{
+    width: 980px;
+    height: 1015px;
+    margin-left: 160px;
+}
+.subTitle1 {
+    margin-bottom: -100px;
+}
+.subTitle1 p{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subTitle1 img{}
+.subTitle1 .lipBold{
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.selOpt{
+    float: right;
+    margin-left: 400px;
+    margin-bottom: 10px;
+}
+.select{
+    float: left;
+}
+.select li{
+    float: left;
+    background: url(../images/optionBtn_1.png) no-repeat left center;
+    padding: 0 10px;
+    font-size: 12px;
+
+}
+.select li a{    color:#949494;}
+
+.optionBtn{
+    float: left;
+    margin-left: 12px;
+}
+
+.optionBtn a{
+    
+}
+.optionBtn a img{
+    
+    margin: 0 3px;
+}
+
+.optionBtn1{}
+z
+.proDuct{
+    margin-top: 50px;
+
+    
+}
+
+.lipstick{
+    width: 320px;
+    height: 340px;
+    background: #fff;    
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.lipstick:nth-child(3n+0){
+    margin-right: 0;
+}
+.lipstick a{
+    display: block;
+    
+}
+.lipClick{
+    background: url(../images/lip2_ruby.png) no-repeat;
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;/*★세트*/
+    transition: opacity 0.5s ;/*★세트*//*이건 디스플레이 논/블락으로 스르륵
+    효과못주기 떄문에 오퍼시티로 0한다음에 밑에 호버에 1줘야 스르륵가능함*/
+}
+.lipClick a{
+    display: block;
+}
+.lipClick1{
+    font-size: 20px;
+    color:#fff;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.lipClick2{
+    background: rgba(255,255,255,0.8);
+    width: calc(100% - 185px);
+    box-sizing: border-box;
+    margin:10px 92.5px;
+    font-size: 15px;
+}
+.lipClick2 a{
+    color:#464646;
+    font-weight: 400;
+    display: block;
+    padding:15px 15px;
+}
+.lipClick3{
+}
+.lipClick3 a{
+}
+
+.lipClick2:hover{
+    background: rgba(38,38,38,0.8);
+    transition: background 0.2s;
+}
+.lipClick2 a:hover{
+    color: #D7D7D7;
+    
+}
+
+
+.lipstick:hover .lipClick{
+    opacity: 1;/*★세트*/
+    
+}
+
+/******아티스트호버**********/
+
+.subCon3 a{
+    content:"";/*글없이하려면 content는 ""하고 바로밑에두개 없애면됨*/
+    text-align: center;
+    color:#fff;
+    display:block;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,0);
+    transition: background 0.3s;
+    background-position: center center;
+}
+
+.subCon3:hover a{
+    background:rgba(0,0,0,0.4) url(../images/makeUp_text.png) no-repeat center center ;
+}
+
+
+
+/*******호버**********/
+
+
+
+
+
+.lipstick a p{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 13px;
+    color:#7c7c7c;
+}
+.lipstick a p span{
+    font-weight: 500;
+    color: #000;
+}
+.lipstick a img{
+}
+.lipstick .price2{
+    font-weight: 500;
+    color: #000;
+    padding: 15px 0;
+    margin:0;
+    border-top: 1px solid #EDEDED;
+    margin-top: 29px;
+}
+.price2{
+}
+
+.moreBtn2{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background: #ADA5A3;
+    text-align: center;
+    font-weight: 200;
+    font-size: 17px;
+    margin-left: 415px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.moreBtn2 a{
+    color:#fff;
+    display: block;
+}
+
+.cosMetics{
+    position: absolute;
+    transform: rotate(90deg);
+    font-weight: 200;
+    color:#939393;
+    right: -100px;
+    bottom: 520px;
+}
+
+.cosMetics span{
+    color:#969696;
+    font-weight: 500;
+}
+
+
+/*subCon2*/
+
+
+.subCon2{
+    background:#D1D1D1;
+    width: 100%;
+    height: 870px;
+}
+
+.subTitle2{
+    position: relative;
+    width: 980px;
+    height: 500px;
+    margin-left: 160px;
+}
+
+
+.subTitleNews{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #252525;
+    margin-bottom: 40px;
+}
+
+
+.news{   
+    
+    width: 100%;
+    height: 400px;
+    background: #EBEBEB;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.news li{
+    float: left;
+}
+.news li{
+    padding-left: 11.75px;
+    padding-top: 11.75px;
+}
+.news li a img{
+    padding-bottom: 14px;
+}
+.news li:last-child{
+    
+    padding-right: 11.75px;
+}
+
+.news li a p{
+    width: 300px;
+    height: 100px;
+    text-align:center;
+    font-size: 11px;
+    color:#636363;
+    line-height: 20px;
+    box-sizing: border-box;
+    
+}
+
+.news li a span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #464646;
+}
+.news li a span{
+    display: block;
+}
+
+.news li a p:hover{
+    text-decoration: underline;
+}
+
+/****************두줄 만들어서 점점점 처리하는법****************************/
+.news li a p{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    word-wrap:break-word;
+    line-height:20px;
+    height:45px; /* height = line-height * 줄수 : 비wekkit 계열 */
+    display:-webkit-box;
+    -webkit-line-clamp:2; /* 라인수 */
+    -webkit-box-orient:vertical;
+    margin: 5px;
+}
+/****************두줄 만들어서 점점점 처리하는법****************************/
+
+
+
+/*********html에서 박스크기내에서 사진만 확대하는방법***************************/
+
+.newsBoximg{
+    width: 311px;
+    height: 248px;
+    overflow: hidden;    
+    margin-bottom: 20px;
+}
+
+.news1 a img{
+    width: 100%;
+    transition: transform 0.7s;/*속도스 2초스로 확대스 이거없으면 그냥 띡! 확대됨*/
+
+    
+}
+
+.news1:hover a img{
+    transform: scale(1.07);
+}
+
+
+
+/*********css에서 박스크기내에서 사진만 확대하는방법***************************/
+
+
+.cosMetics2{
+    position: absolute;
+    transform: rotate(90deg);
+    font-weight: 200;
+    color:#686868;
+    right: -260px;
+    bottom: 180px;
+}
+
+.cosMetics2 span{
+    color:#555555;
+    font-weight: 500;  
+}
+
+
+
+
+
+/*서브컨텐츠3*/
+
+.subCon3{
+    width: 100%;
+    height: 455px;
+    background: url(../images/artist_off4.png) no-repeat center center;
+    text-indent: -9999px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.subCon3 a{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.subCon3 a{
+    content:"";/*글없이하려면 content는 ""하고 바로밑에두개 없애면됨*/
+    text-align: center;
+    color:#fff;
+    display:block;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,0);
+    transition: background 0.3s;
+    background-position: center center;
+}
+
+.subCon3:hover a{
+    background:rgba(0,0,0,0.4) url(../images/makeUp_text.png) no-repeat center center ;
+   
+    
+    
+}

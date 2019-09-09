@@ -1,0 +1,229 @@
+@charset "utf-8";
+
+/*기본css*/
+/****default 기본 메인,이너,cf등등~~~~******/
+body{
+    font-family: 'NotoSans', sans-serif;
+}
+
+
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{
+    margin:0;
+    
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#292929;
+}
+
+.inner{
+    width:1300px;
+    margin:0 auto;
+}
+
+.cf:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+img{border:0}
+/*************************************/
+
+
+#container{}
+
+.mainSlider{
+    position:relative;
+}
+
+.mainPage{
+    position: absolute;
+    width: 1300px;
+    height: 1080px;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
+
+/*첫번째메인 뒷배경이미지들*/
+.mainBack{
+    width: 100%;
+}
+.mainBack img{
+    width: 100%;
+}
+
+.mainBack1{
+    width: 35%;
+    height: 1080px;
+    float: left; 
+    background:url(../images/1red_background.png) no-repeat right;
+    background-size:cover;
+}
+.mainBack2{
+    width:65%;
+    height: 1080px;
+    float: right;
+    background:#ac2021;
+    background-size:cover;
+    overflow:hidden;
+}
+
+
+
+.mainBack li{
+}
+.mainBack li a{}
+.mainBack li a img{}
+
+
+/*첫번째메인 앞배경이미지들*/
+
+.mainFront{
+}
+.mainImg{
+    position: absolute;
+    width: 501px;
+    height: 678px;
+    background: url(../images/mainImg_red.png) no-repeat;
+    left:210px;
+    top:254px;
+    text-indent: -9999px;
+}
+.mainImg a{
+    width: 501px;
+    height: 678px;
+    display: block;
+}
+
+.mainText{}
+.mainText a{
+    position: absolute;
+    left:661px;
+    top:460px;
+    color: #fff;
+    font-size: 70px;
+    line-height:80px;
+}
+.mainText a span{
+    font-weight: 600;
+    font-size: 65px;
+    margin-left: 2px;
+}
+.playBtn{
+    position: absolute;
+    left: 0;
+    top:740px;
+}
+.watchMe{
+    position: absolute;
+    left: -50px;
+    top: 860px;
+    transform: rotate(90deg);
+    letter-spacing: 7px;
+    font-size:15px;
+    font-weight: 500;
+}
+.watchMe a{
+    color: #fff;
+}
+.rogin{
+    position: absolute;
+    right: 0;
+    top:860px;
+}
+.pageBtn{
+    background: url(../images/numBtn.png) no-repeat;
+    width: 64px;
+    height: 27px;
+    position: absolute;
+    top:254px;
+    right: 0;
+    text-indent: -9999px;
+}
+.pageBtn a{
+    display: block;
+}
+.price{
+    position: absolute;
+    right: 160px;
+    top: 660px;
+    width: 100px;
+    height: 16px;
+    line-height: 16px;
+    background: url(../images/wonBtn.png) no-repeat ;
+    padding-left: 30px;
+
+}
+.price a{
+    color:#fff;
+    font-size: 21px;
+    
+}
+
+.moreBtn{
+    position: absolute;
+    right: 195px;
+    top: 700px;
+    width: 200px;
+    height: 55px;
+    line-height: 55px;
+    border:3px solid #fff;
+}
+
+.moreBtn a{
+    display: block;
+    padding: 0 20px;
+    background: url(../images/moreIco_1.png) no-repeat 160px 17px;
+}
+.moreBtn a img{}
+
+.mouse{
+    position: absolute;
+    right: 0;
+    top:980px;
+    
+}
+
+
+.mainFront li{}
+.mainFront li a{
+}
+.mainFront li a img{}
+
+
+/*첫번째메인 버튼*/
+
+.nextBtn{
+    position: absolute;
+    bottom:500px;
+    right: 45px;
+    bottom: 0;
+    text-indent: -9999px;
+    top:986px;
+}
+.nextBtn li{
+    width: 15px;
+    height: 14px;
+    padding-right: 15px;
+    background: url(../images/offBtn.png) no-repeat;
+    float: left;
+}
+.nextBtn li a{
+    display: block;
+}
+
+
+
+
+

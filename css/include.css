@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+
+/*include 헤더~푸터~*/
+
+
+#wrap{
+    position: relative;
+    width: 100%;
+}
+#header{
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: 1;
+}
+#header .inner{
+    position:relative;
+}
+#header h1{
+    float: left;
+    height: 200px;
+    line-height: 200px;
+}
+#header h1 a{
+}
+#header h1 a img{}
+
+.gnb{
+    height: 200px;
+    line-height: 200px;
+    float: left;
+    margin-left: 225px;
+}
+.gnb li{
+    float: left;
+    margin-left: 95px;
+}
+.gnb li a{
+    color:#fff;
+    display: block;
+    font-weight: 300;
+}
+
+.search{
+    text-align: center;
+    width: 266px;
+    height: 66px;
+    line-height: 66px;
+    background: url(../images/1red_searchBox_1.png) no-repeat center center;
+    position: absolute;
+    right: 0;
+    top: 67px;
+    right: 11px;
+    float: right;
+}
+.search a{
+}
+
+.search a img{
+   
+    vertical-align: middle;
+    margin-right: 16px;
+}
+.search a img{}
+
+
+.search input{ /*화살표 자기가 들고있는 사진? 화살표로 지정해서 바꾸기~*/
+    -webkit-appearance:none;
+    height: 59px;
+    line-height: 59px;
+    border: 1px solid  rgba(0,0,0,0.0);
+    font-size: 15px;
+    background: url(../) no-repeat 90% center;
+    padding: 0 6px;
+    margin-left: 10px;
+    color:#fff;
+    font-weight: 300;
+}
+
+
+.menuBtn{
+    position: absolute;
+    width: 38px;
+    height: 22px;
+    left: 0;
+    top:200px;
+    background: url(../images/menuBtn.png) no-repeat;
+    text-indent: -9999px;
+}
+.menuBtn a{
+    display: block;
+}
+
+
+
+/*푸터*/
+#footer{
+    background: #070911;
+    height: 350px;
+}
+
+.footerBar{
+    padding-top: 60px;
+}
+.footerBar h1{
+    float: left;
+}
+.footerBar h1 a{}
+.footerBar h1 a img{}
+
+.foMenu{
+    padding-top: 10px;
+    color: #fff;
+    float: left;
+}
+.foMenu ul{
+    float: left;
+    padding-left: 100px;
+    font-weight: 200;
+    line-height: 25px;
+    font-size: 13px;
+}
+.foMenu ul li a{
+    color: #959595;
+}
+.foMenu ul:last-child{
+    padding-right: 100px;
+}
+.foMenu ul li{}
+.infoBold{
+    font-weight: 400;
+    color: #C2C2C2;
+    padding-bottom: 10px;
+}
+
+
+.footerIco{
+    padding-top: 10px;
+}
+.footerIco li{
+    float: left;
+    padding: 0 10px;
+}
+.footerIco li a{}
+
+.foInfo{
+    margin-left: 255px;
+    color: #7D7D7D;
+    font-size:12px;
+    padding: 10px 0;
+    padding-top:35px;
+}
+.foInfo li{
+    float: left;
+    padding-right: 20px;
+}
+
+.foInfo2{
+    margin-left: 255px;
+    color: #363636;
+    font-size:12px;
+}
+.foInfo2 p{
+}
+.foInfo2 li{
+    float: left;
+    line-height: 22px;
+}
+.foInfo2 li a{}
+
+
+.foInfo2 li:after{
+    content:"";
+    display: inline-block;
+    width:1px;
+    height:10px;
+    background: #363636;
+    margin:0 10px;
+    
+    
+}
+
+.foInfo2 li:last-child:after{
+    display: none;
+}
+
+.foInfo2 a:hover{
+    text-decoration: underline;
+}
+
